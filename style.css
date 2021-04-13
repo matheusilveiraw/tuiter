@@ -1,0 +1,19 @@
+body { 
+    color: white;
+    background: black;
+    overflow-x: hidden;
+}
+
+#foot li a, #foot li { 
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.btn-round { 
+    border-radius: 50px;
+}
+
+#btns input[type="button"] {
+    width: 250px;
+   
+}
