@@ -3,3 +3,5 @@
      Fazer o twitter foi o próximo projeto que pensei apenas por causa do meu projeto relacionado ao facebook (https://github.com/matheusilveiraw/fakebookwebpage)
      
      12/04/2021 - Início do projeto, lancei o projeto sem ele estar apropriadamente pronto. Muitos ajustes ainda precisam ser feitos. 
+     13/04/2021 - Várias correções, no geral, em termos de fluídez da página. 
+     14/04/2021 - Algumas correções que faltaram. Projeto pronto como webpage. 
