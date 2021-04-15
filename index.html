@@ -18,17 +18,20 @@
     <section> <!-- two parts -->
         <div class="container" style="padding: 0; margin: 0;"></div>
             <div class="row">
-                <div class="col-md-6"> <!--  there will be the img content here-->
-                    <img src="imgs/twitterbackground.png" alt="" style="width: 100%; height: 800px;">
+                <div class="col-xl-6 col-lg-5 col-md-4 background-img order-sm-1 order-md-0" style="display: flex; align-items: center;
+                justify-content: center"> 
+                    <img src="imgs/twitter4.png" alt="" id="twitter-img">
+
+                    <!--  there will be the img content here-->
                 </div>
 
-                <div class="col-md-6"> <!-- there will be the content with a login, a lost twitter symbol, messages (titles) and two buttons -->
-                    <form class="form-inline">
-                            <input type="text" placeholder="Celular, e-mail ou nome de usuário" class="form-control mr-2 mt-2">
+                <div class="col-xl-6 col-lg-7 col-md-8 order-sm-0 order-md-1" id="principal"> <!-- there will be the content with a login, a lost twitter symbol, messages (titles) and two buttons -->
+                    <form class="form-inline d-none d-md-block">
+                            <input type="text" placeholder="Celular, e-mail ou nome de usuário" class="mr-2 mt-2">
 
-                            <input type="password" placeholder="Senha" class="form-control mr-2 mt-2">
+                            <input type="password" placeholder="Senha" class="mr-2 mt-2">
 
-                            <button class="btn btn-outline-primary mr-2 mt-2 btn-round"> Entrar</button>
+                            <button class="btn mr-2 mt-2 btn-round btn-entrar">Entrar</button>
                     </form>
 
                     <div class="mt-5 mb-5">
@@ -37,7 +40,7 @@
 
                     <div>
                         <h2 class="mt-5 mb-5">
-                            É o que está acontecendo agora. 
+                            Acontecendo agora. 
                         </h2>
 
                         <h3 class="mb-5">
@@ -46,10 +49,12 @@
                     </div>
 
                     <div id="btns" class="">
-                        <div><input type="button" value="Inscreva-se" class="btn btn-primary mb-3 btn-round"></div>
+                        <div>
+                            <input type="button" value="Inscreva-se" class="btn mb-3 btn-round" id="btn-inscrever">
+                        </div>
                         
                         <div>
-                            <input type="button" value="Entrar" class="btn btn-outline-primary btn-round">
+                            <input type="button" value="Entrar" class="btn btn-round btn-2 btn-entrar">
                         </div>
                     </div>
                 </div>
@@ -58,7 +63,7 @@
     </section>
 
     <footer class="mt-2"> <!-- just the footer -->
-        <ul class="list-inline" id="foot">
+        <ul class="list-inline text-center" id="foot">
             <li class="list-inline-item"><a href="">Sobre</a></li>
             <li class="list-inline-item"><a href="">Central de Ajuda</a></li>
             <li class="list-inline-item"><a href="">Termos de serviço</a></li>
