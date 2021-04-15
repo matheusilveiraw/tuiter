@@ -8,6 +8,8 @@
      vista mas acredito que isso me dará um poder maior de observação. Nesse projeto também encontrei alguns limites do CSS,
      onde o meu problema seria solucionado apenas com JS ou com muita gambiarra no CSS. 
      
+     Link:  https://matheusilveiraw.github.io/tuiter/
+     
      12/04/2021 - Início do projeto, lancei o projeto sem ele estar apropriadamente pronto. Muitos ajustes ainda precisam ser
      feitos. 
      13/04/2021 - Várias correções, no geral, em termos de fluídez da página. 
